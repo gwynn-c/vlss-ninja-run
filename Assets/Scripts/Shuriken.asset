@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 647c7be66fdb21941ae75fcbd60eb403, type: 3}
+  m_Name: Shuriken
+  m_EditorClassIdentifier: Assembly-CSharp::PowerUpSO
+  powerUpName: Shuriken
+  powerUpDuration: 0
+  powerUpPrefab: {fileID: 721900850705449027, guid: 18b8ead1ad21c694bbc1e0f742c8e8e5, type: 3}

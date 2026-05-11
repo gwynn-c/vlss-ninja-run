@@ -1,0 +1,21 @@
+﻿using UnityEngine;
+
+public class CollectibleController : MonoBehaviour
+{
+	private Rigidbody2D _rigidbody2D;
+    [SerializeField] private float _speed;
+    private void Start()
+    {
+        _rigidbody2D = GetComponent<Rigidbody2D>();
+    }
+
+
+    private void FixedUpdate()
+    {
+        if (GameManager.Instance.isGameOver)
+        {
+            return;
+        }
+        _rigidbody2D.AddForce(Vector2.left * (_speed * Time.fixedDeltaTime), ForceMode2D.Force);
+    }
+}
